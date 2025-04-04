@@ -1,0 +1,130 @@
+[0.023s] Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/my_pick_and_place_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/my_pick_and_place_pkg
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.854s] -- The CXX compiler identification is GNU 11.4.0
+[1.279s] -- Detecting C compiler ABI info
+[1.446s] -- Detecting C compiler ABI info - done
+[1.454s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.455s] -- Detecting C compile features
+[1.456s] -- Detecting C compile features - done
+[1.461s] -- Detecting CXX compiler ABI info
+[1.682s] -- Detecting CXX compiler ABI info - done
+[1.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.691s] -- Detecting CXX compile features
+[1.691s] -- Detecting CXX compile features - done
+[1.706s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.904s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.988s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.027s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.269s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.277s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.293s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.434s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.440s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.930s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.457s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.599s] -- Looking for pthread.h
+[8.757s] -- Looking for pthread.h - found
+[8.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.923s] -- Found Threads: TRUE  
+[9.061s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[9.064s] -- Checking for module 'bullet>=2.82'
+[9.077s] --   Found bullet, version 3.05
+[9.244s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[9.295s] -- Found assimp: /usr/include (found version "5.2.0") 
+[9.336s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[9.389s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[9.766s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[9.776s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.798s] -- Searching for dependencies of ignition-math6
+[9.802s] -- Looking for OGRE...
+[9.803s] -- OGRE_PREFIX_WATCH changed.
+[9.811s] -- Checking for module 'OGRE'
+[9.826s] --   Found OGRE, version 1.9.0
+[9.860s] -- Found Ogre Ghadamon (1.9.0)
+[10.275s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[10.288s] -- Looking for OGRE_Paging...
+[10.901s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[10.901s] -- Looking for OGRE_Terrain...
+[11.567s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[11.567s] -- Looking for OGRE_Property...
+[12.065s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[12.065s] -- Looking for OGRE_RTShaderSystem...
+[12.480s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[12.480s] -- Looking for OGRE_Volume...
+[12.864s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[12.864s] -- Looking for OGRE_Overlay...
+[13.171s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[31.031s] -- Looking for ignition-math6 -- found version 6.15.1
+[31.046s] -- Looking for ignition-transport8 -- found version 8.2.1
+[31.048s] -- Searching for dependencies of ignition-transport8
+[32.562s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[34.291s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[34.299s] -- Checking for module 'libzmq >= 4'
+[34.324s] --   Found libzmq , version 4.3.4
+[34.360s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[34.430s] -- Checking for module 'uuid'
+[34.455s] --   Found uuid, version 2.37.2
+[34.487s] -- Found UUID: TRUE  
+[34.494s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[34.497s] -- Searching for dependencies of ignition-msgs5
+[36.285s] -- Looking for ignition-math6 -- found version 6.15.1
+[36.305s] -- Checking for module 'tinyxml2'
+[36.322s] --   Found tinyxml2, version 9.0.0
+[36.355s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[36.360s] -- Looking for ignition-common3 -- found version 3.14.0
+[36.362s] -- Searching for dependencies of ignition-common3
+[36.429s] -- Looking for dlfcn.h - found
+[36.521s] -- Looking for libdl - found
+[36.526s] -- Found DL: TRUE  
+[36.643s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[36.644s] -- Searching for <ignition-common3> component [graphics]
+[36.648s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[36.649s] -- Searching for dependencies of ignition-common3-graphics
+[36.650s] -- Looking for ignition-math6 -- found version 6.15.1
+[36.656s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[36.656s] -- Searching for dependencies of ignition-fuel_tools4
+[38.185s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[38.199s] -- Checking for module 'jsoncpp'
+[38.214s] --   Found jsoncpp, version 1.9.5
+[38.246s] -- Found JSONCPP: TRUE  
+[38.252s] -- Checking for module 'libzip'
+[38.263s] --   Found libzip, version 1.7.3
+[38.291s] -- Found ZIP: TRUE  
+[38.292s] -- Looking for ignition-common3 -- found version 3.14.0
+[38.293s] -- Looking for ignition-math6 -- found version 6.15.1
+[38.293s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[38.301s] -- Gazebo version: 11.10
+[38.301s] -- Checking for module 'tbb'
+[38.313s] --   Found tbb, version 2021.5.0
+[38.347s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[38.453s] -- Added test 'lint_cmake' to check CMake code style
+[38.455s] -- Added test 'xmllint' to check XML markup files
+[38.457s] -- Configuring done
+[38.467s] -- Generating done
+[38.472s] -- Build files have been written to: /home/bin1225/ur_ws/build/my_pick_and_place_pkg
+[38.493s] Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/my_pick_and_place_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/my_pick_and_place_pkg
+[38.493s] Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/my_pick_and_place_pkg -- -j22 -l22
+[38.543s] Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/my_pick_and_place_pkg -- -j22 -l22
+[38.546s] Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/my_pick_and_place_pkg
+[38.553s] -- Install configuration: ""
+[38.553s] -- Execute custom install script
+[38.554s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/ament_index/resource_index/package_run_dependencies/my_pick_and_place_pkg
+[38.564s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/ament_index/resource_index/parent_prefix_path/my_pick_and_place_pkg
+[38.574s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/ament_prefix_path.sh
+[38.582s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/ament_prefix_path.dsv
+[38.590s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/path.sh
+[38.599s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/path.dsv
+[38.608s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.bash
+[38.616s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.sh
+[38.626s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.zsh
+[38.635s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.dsv
+[38.643s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.dsv
+[38.652s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/ament_index/resource_index/packages/my_pick_and_place_pkg
+[38.660s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/cmake/my_pick_and_place_pkgConfig.cmake
+[38.670s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/cmake/my_pick_and_place_pkgConfig-version.cmake
+[38.679s] -- Symlinking: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.xml
+[38.691s] Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/my_pick_and_place_pkg

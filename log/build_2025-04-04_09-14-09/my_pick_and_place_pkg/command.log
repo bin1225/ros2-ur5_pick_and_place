@@ -1,0 +1,4 @@
+Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/my_pick_and_place_pkg -- -j22 -l22
+Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/my_pick_and_place_pkg -- -j22 -l22
+Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/my_pick_and_place_pkg
+Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/my_pick_and_place_pkg

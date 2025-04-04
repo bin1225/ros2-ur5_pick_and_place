@@ -1,0 +1,221 @@
+[0.534s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.534s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa95a5076a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa95a5070a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa95a5070a0>>)
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.112s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bin1225/ur_ws'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extension 'ignore'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extension 'ignore_ament_install'
+[1.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extensions ['colcon_pkg']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extension 'colcon_pkg'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extensions ['colcon_meta']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extension 'colcon_meta'
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extensions ['ros']
+[1.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_pick_and_place_pkg) by extension 'ros'
+[1.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_pick_and_place_pkg' with type 'ros.ament_cmake' and name 'my_pick_and_place_pkg'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ignore_ament_install'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['colcon_pkg']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'colcon_pkg'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['colcon_meta']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'colcon_meta'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['ros']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'ros'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['cmake', 'python']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'cmake'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'python'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extensions ['python_setup_py']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz) by extension 'python_setup_py'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_simulation_gz/ur_simulation_gz) by extension 'ros'
+[1.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_simulation_gz/ur_simulation_gz' with type 'ros.ament_cmake' and name 'ur_simulation_gz'
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/bin1225/ur_ws/install
+[1.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 368 installed packages in /opt/ros/humble
+[1.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.377s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'cmake_target' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'my_pick_and_place_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.378s] DEBUG:colcon.colcon_core.verb:Building package 'my_pick_and_place_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bin1225/ur_ws/build/my_pick_and_place_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bin1225/ur_ws/install/my_pick_and_place_pkg', 'merge_install': False, 'path': '/home/bin1225/ur_ws/src/my_pick_and_place_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_target' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_clean_first' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'cmake_force_configure' from command line to 'False'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'ament_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[1.378s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.378s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bin1225/ur_ws/build/ur_simulation_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bin1225/ur_ws/install/ur_simulation_gz', 'merge_install': False, 'path': '/home/bin1225/ur_ws/src/ur_simulation_gz/ur_simulation_gz', 'symlink_install': True, 'test_result_base': None}
+[1.379s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.380s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.381s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bin1225/ur_ws/src/my_pick_and_place_pkg' with build type 'ament_cmake'
+[1.381s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bin1225/ur_ws/src/my_pick_and_place_pkg'
+[1.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bin1225/ur_ws/src/ur_simulation_gz/ur_simulation_gz' with build type 'ament_cmake'
+[1.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bin1225/ur_ws/src/ur_simulation_gz/ur_simulation_gz'
+[1.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/my_pick_and_place_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/my_pick_and_place_pkg
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bin1225/ur_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/ur_simulation_gz/ur_simulation_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/ur_simulation_gz
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bin1225/ur_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/ur_simulation_gz/ur_simulation_gz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/ur_simulation_gz
+[1.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bin1225/ur_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/ur_simulation_gz -- -j22 -l22
+[1.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bin1225/ur_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/ur_simulation_gz -- -j22 -l22
+[1.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bin1225/ur_ws/build/ur_simulation_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/ur_simulation_gz
+[1.931s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gz)
+[1.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bin1225/ur_ws/build/ur_simulation_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/ur_simulation_gz
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz' for CMake module files
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz' for CMake config files
+[1.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gz', 'cmake_prefix_path')
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.dsv'
+[1.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.sh'
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/bin'
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/lib/pkgconfig/ur_simulation_gz.pc'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/lib/python3.10/site-packages'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/bin'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.ps1'
+[1.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.sh'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.bash'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.zsh'
+[1.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bin1225/ur_ws/install/ur_simulation_gz/share/colcon-core/packages/ur_simulation_gz)
+[1.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gz)
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz' for CMake module files
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz' for CMake config files
+[1.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gz', 'cmake_prefix_path')
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.ps1'
+[1.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.dsv'
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/hook/cmake_prefix_path.sh'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/bin'
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/lib/pkgconfig/ur_simulation_gz.pc'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/lib/python3.10/site-packages'
+[1.960s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/ur_simulation_gz/bin'
+[1.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.dsv'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.sh'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.bash'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/ur_simulation_gz/share/ur_simulation_gz/package.zsh'
+[1.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bin1225/ur_ws/install/ur_simulation_gz/share/colcon-core/packages/ur_simulation_gz)
+[39.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/my_pick_and_place_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/my_pick_and_place_pkg
+[39.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/my_pick_and_place_pkg -- -j22 -l22
+[39.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/my_pick_and_place_pkg -- -j22 -l22
+[39.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/my_pick_and_place_pkg
+[40.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_pick_and_place_pkg)
+[40.073s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg' for CMake module files
+[40.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/my_pick_and_place_pkg
+[40.074s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg' for CMake config files
+[40.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pick_and_place_pkg', 'cmake_prefix_path')
+[40.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/hook/cmake_prefix_path.ps1'
+[40.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/hook/cmake_prefix_path.dsv'
+[40.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/hook/cmake_prefix_path.sh'
+[40.076s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/bin'
+[40.076s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/lib/pkgconfig/my_pick_and_place_pkg.pc'
+[40.077s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/lib/python3.10/site-packages'
+[40.077s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/bin'
+[40.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.ps1'
+[40.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.dsv'
+[40.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.sh'
+[40.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.bash'
+[40.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.zsh'
+[40.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/colcon-core/packages/my_pick_and_place_pkg)
+[40.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_pick_and_place_pkg)
+[40.083s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg' for CMake module files
+[40.083s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg' for CMake config files
+[40.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_pick_and_place_pkg', 'cmake_prefix_path')
+[40.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/hook/cmake_prefix_path.ps1'
+[40.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/hook/cmake_prefix_path.dsv'
+[40.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/hook/cmake_prefix_path.sh'
+[40.086s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/bin'
+[40.086s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/lib/pkgconfig/my_pick_and_place_pkg.pc'
+[40.087s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/lib/python3.10/site-packages'
+[40.087s] Level 1:colcon.colcon_core.environment:checking '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/bin'
+[40.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.ps1'
+[40.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.dsv'
+[40.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.sh'
+[40.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.bash'
+[40.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.zsh'
+[40.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/colcon-core/packages/my_pick_and_place_pkg)
+[40.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[40.092s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[40.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.143s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.144s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[40.144s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bin1225/ur_ws/install/local_setup.ps1'
+[40.147s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bin1225/ur_ws/install/_local_setup_util_ps1.py'
+[40.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bin1225/ur_ws/install/setup.ps1'
+[40.151s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bin1225/ur_ws/install/local_setup.sh'
+[40.152s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bin1225/ur_ws/install/_local_setup_util_sh.py'
+[40.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bin1225/ur_ws/install/setup.sh'
+[40.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bin1225/ur_ws/install/local_setup.bash'
+[40.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bin1225/ur_ws/install/setup.bash'
+[40.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bin1225/ur_ws/install/local_setup.zsh'
+[40.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bin1225/ur_ws/install/setup.zsh'

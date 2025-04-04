@@ -1,0 +1,404 @@
+[0.000000] (-) TimerEvent: {}
+[0.001595] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.001943] (my_pick_and_place_pkg) JobQueued: {'identifier': 'my_pick_and_place_pkg', 'dependencies': OrderedDict()}
+[0.002239] (my_pick_and_place_pkg) JobStarted: {'identifier': 'my_pick_and_place_pkg'}
+[0.015963] (my_pick_and_place_pkg) JobProgress: {'identifier': 'my_pick_and_place_pkg', 'progress': 'cmake'}
+[0.017411] (my_pick_and_place_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/bin1225/ur_ws/src/my_pick_and_place_pkg', '-DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/my_pick_and_place_pkg'], 'cwd': '/home/bin1225/ur_ws/build/my_pick_and_place_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bin1225'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bin1225'), ('OLDPWD', '/home/bin1225/ur_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bin1225/ur_ws/src/install:/home/bin1225/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bin1225'), ('NAME', 'BOOK-NSPE08QJBM'), ('WSL_INTEROP', '/run/WSL/28562_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/kkb00/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kkb00/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bin1225/ur_ws/install/my_pick_and_place_pkg:/home/bin1225/ur_ws/install/ur_simulation_gz:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('COLCON_WS', '/home/bin1225/ur_ws'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bin1225/ur_ws/build/my_pick_and_place_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/bin1225/ur_ws/install/my_pick_and_place_pkg:/home/bin1225/ur_ws/install/ur_simulation_gz:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.037024] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098913] (-) TimerEvent: {}
+[0.188539] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.196656] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.199021] (-) TimerEvent: {}
+[0.299620] (-) TimerEvent: {}
+[0.400522] (-) TimerEvent: {}
+[0.433588] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.434700] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.440089] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.450245] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.464779] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500038] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.500659] (-) TimerEvent: {}
+[0.501597] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600895] (-) TimerEvent: {}
+[0.701654] (-) TimerEvent: {}
+[0.802401] (-) TimerEvent: {}
+[0.903094] (-) TimerEvent: {}
+[1.003820] (-) TimerEvent: {}
+[1.104685] (-) TimerEvent: {}
+[1.205465] (-) TimerEvent: {}
+[1.306122] (-) TimerEvent: {}
+[1.406814] (-) TimerEvent: {}
+[1.507474] (-) TimerEvent: {}
+[1.608100] (-) TimerEvent: {}
+[1.708705] (-) TimerEvent: {}
+[1.809300] (-) TimerEvent: {}
+[1.910002] (-) TimerEvent: {}
+[2.011494] (-) TimerEvent: {}
+[2.112125] (-) TimerEvent: {}
+[2.212746] (-) TimerEvent: {}
+[2.313368] (-) TimerEvent: {}
+[2.413967] (-) TimerEvent: {}
+[2.514591] (-) TimerEvent: {}
+[2.615172] (-) TimerEvent: {}
+[2.715804] (-) TimerEvent: {}
+[2.816554] (-) TimerEvent: {}
+[2.917340] (-) TimerEvent: {}
+[3.017988] (-) TimerEvent: {}
+[3.118673] (-) TimerEvent: {}
+[3.219422] (-) TimerEvent: {}
+[3.320140] (-) TimerEvent: {}
+[3.420918] (-) TimerEvent: {}
+[3.521683] (-) TimerEvent: {}
+[3.622446] (-) TimerEvent: {}
+[3.723105] (-) TimerEvent: {}
+[3.823729] (-) TimerEvent: {}
+[3.924418] (-) TimerEvent: {}
+[4.025102] (-) TimerEvent: {}
+[4.125777] (-) TimerEvent: {}
+[4.226429] (-) TimerEvent: {}
+[4.327148] (-) TimerEvent: {}
+[4.427862] (-) TimerEvent: {}
+[4.528532] (-) TimerEvent: {}
+[4.629199] (-) TimerEvent: {}
+[4.729885] (-) TimerEvent: {}
+[4.830536] (-) TimerEvent: {}
+[4.931250] (-) TimerEvent: {}
+[5.031905] (-) TimerEvent: {}
+[5.132575] (-) TimerEvent: {}
+[5.233232] (-) TimerEvent: {}
+[5.333886] (-) TimerEvent: {}
+[5.434571] (-) TimerEvent: {}
+[5.535279] (-) TimerEvent: {}
+[5.595070] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.635528] (-) TimerEvent: {}
+[5.681670] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[5.713242] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[5.715749] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.722354] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.724372] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[5.731955] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[5.732344] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[5.735642] (-) TimerEvent: {}
+[5.745001] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[5.745545] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[5.745697] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[5.745756] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[5.745807] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[5.745852] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[5.745898] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[5.745943] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[5.745990] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[5.746175] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[5.746254] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[5.746304] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[5.835966] (-) TimerEvent: {}
+[5.936822] (-) TimerEvent: {}
+[6.037725] (-) TimerEvent: {}
+[6.138649] (-) TimerEvent: {}
+[6.239356] (-) TimerEvent: {}
+[6.340142] (-) TimerEvent: {}
+[6.440818] (-) TimerEvent: {}
+[6.541497] (-) TimerEvent: {}
+[6.642165] (-) TimerEvent: {}
+[6.742799] (-) TimerEvent: {}
+[6.843617] (-) TimerEvent: {}
+[6.944375] (-) TimerEvent: {}
+[7.045023] (-) TimerEvent: {}
+[7.145649] (-) TimerEvent: {}
+[7.246368] (-) TimerEvent: {}
+[7.347139] (-) TimerEvent: {}
+[7.447807] (-) TimerEvent: {}
+[7.548458] (-) TimerEvent: {}
+[7.649132] (-) TimerEvent: {}
+[7.749872] (-) TimerEvent: {}
+[7.850553] (-) TimerEvent: {}
+[7.951273] (-) TimerEvent: {}
+[8.051874] (-) TimerEvent: {}
+[8.152523] (-) TimerEvent: {}
+[8.253314] (-) TimerEvent: {}
+[8.354225] (-) TimerEvent: {}
+[8.454883] (-) TimerEvent: {}
+[8.555581] (-) TimerEvent: {}
+[8.656271] (-) TimerEvent: {}
+[8.757030] (-) TimerEvent: {}
+[8.857749] (-) TimerEvent: {}
+[8.958430] (-) TimerEvent: {}
+[9.059102] (-) TimerEvent: {}
+[9.159769] (-) TimerEvent: {}
+[9.260447] (-) TimerEvent: {}
+[9.361186] (-) TimerEvent: {}
+[9.461939] (-) TimerEvent: {}
+[9.562714] (-) TimerEvent: {}
+[9.663384] (-) TimerEvent: {}
+[9.764062] (-) TimerEvent: {}
+[9.864723] (-) TimerEvent: {}
+[9.965382] (-) TimerEvent: {}
+[10.066046] (-) TimerEvent: {}
+[10.166691] (-) TimerEvent: {}
+[10.267351] (-) TimerEvent: {}
+[10.368023] (-) TimerEvent: {}
+[10.468668] (-) TimerEvent: {}
+[10.569295] (-) TimerEvent: {}
+[10.669940] (-) TimerEvent: {}
+[10.770613] (-) TimerEvent: {}
+[10.871341] (-) TimerEvent: {}
+[10.971988] (-) TimerEvent: {}
+[11.072657] (-) TimerEvent: {}
+[11.173613] (-) TimerEvent: {}
+[11.274492] (-) TimerEvent: {}
+[11.375104] (-) TimerEvent: {}
+[11.475769] (-) TimerEvent: {}
+[11.576374] (-) TimerEvent: {}
+[11.677008] (-) TimerEvent: {}
+[11.777740] (-) TimerEvent: {}
+[11.878507] (-) TimerEvent: {}
+[11.979177] (-) TimerEvent: {}
+[12.079849] (-) TimerEvent: {}
+[12.182795] (-) TimerEvent: {}
+[12.283519] (-) TimerEvent: {}
+[12.384383] (-) TimerEvent: {}
+[12.485802] (-) TimerEvent: {}
+[12.586804] (-) TimerEvent: {}
+[12.687386] (-) TimerEvent: {}
+[12.787997] (-) TimerEvent: {}
+[12.888755] (-) TimerEvent: {}
+[12.989865] (-) TimerEvent: {}
+[13.090659] (-) TimerEvent: {}
+[13.191334] (-) TimerEvent: {}
+[13.292018] (-) TimerEvent: {}
+[13.392635] (-) TimerEvent: {}
+[13.493268] (-) TimerEvent: {}
+[13.593868] (-) TimerEvent: {}
+[13.694616] (-) TimerEvent: {}
+[13.795293] (-) TimerEvent: {}
+[13.895919] (-) TimerEvent: {}
+[13.996597] (-) TimerEvent: {}
+[14.097282] (-) TimerEvent: {}
+[14.198110] (-) TimerEvent: {}
+[14.298777] (-) TimerEvent: {}
+[14.399453] (-) TimerEvent: {}
+[14.500128] (-) TimerEvent: {}
+[14.600798] (-) TimerEvent: {}
+[14.701398] (-) TimerEvent: {}
+[14.801908] (-) TimerEvent: {}
+[14.902606] (-) TimerEvent: {}
+[15.003256] (-) TimerEvent: {}
+[15.103936] (-) TimerEvent: {}
+[15.204634] (-) TimerEvent: {}
+[15.305303] (-) TimerEvent: {}
+[15.405974] (-) TimerEvent: {}
+[15.506644] (-) TimerEvent: {}
+[15.607316] (-) TimerEvent: {}
+[15.707975] (-) TimerEvent: {}
+[15.808622] (-) TimerEvent: {}
+[15.909328] (-) TimerEvent: {}
+[16.010017] (-) TimerEvent: {}
+[16.110698] (-) TimerEvent: {}
+[16.211418] (-) TimerEvent: {}
+[16.312117] (-) TimerEvent: {}
+[16.412839] (-) TimerEvent: {}
+[16.513517] (-) TimerEvent: {}
+[16.614157] (-) TimerEvent: {}
+[16.714800] (-) TimerEvent: {}
+[16.815789] (-) TimerEvent: {}
+[16.916706] (-) TimerEvent: {}
+[17.017385] (-) TimerEvent: {}
+[17.118115] (-) TimerEvent: {}
+[17.219794] (-) TimerEvent: {}
+[17.320616] (-) TimerEvent: {}
+[17.421329] (-) TimerEvent: {}
+[17.522026] (-) TimerEvent: {}
+[17.622851] (-) TimerEvent: {}
+[17.723527] (-) TimerEvent: {}
+[17.824222] (-) TimerEvent: {}
+[17.924857] (-) TimerEvent: {}
+[18.025505] (-) TimerEvent: {}
+[18.126220] (-) TimerEvent: {}
+[18.226918] (-) TimerEvent: {}
+[18.327548] (-) TimerEvent: {}
+[18.428237] (-) TimerEvent: {}
+[18.528887] (-) TimerEvent: {}
+[18.629554] (-) TimerEvent: {}
+[18.730372] (-) TimerEvent: {}
+[18.831328] (-) TimerEvent: {}
+[18.932247] (-) TimerEvent: {}
+[19.032936] (-) TimerEvent: {}
+[19.133613] (-) TimerEvent: {}
+[19.234327] (-) TimerEvent: {}
+[19.335012] (-) TimerEvent: {}
+[19.435685] (-) TimerEvent: {}
+[19.536407] (-) TimerEvent: {}
+[19.637201] (-) TimerEvent: {}
+[19.737876] (-) TimerEvent: {}
+[19.838549] (-) TimerEvent: {}
+[19.939219] (-) TimerEvent: {}
+[20.039880] (-) TimerEvent: {}
+[20.140568] (-) TimerEvent: {}
+[20.241322] (-) TimerEvent: {}
+[20.341999] (-) TimerEvent: {}
+[20.442686] (-) TimerEvent: {}
+[20.543725] (-) TimerEvent: {}
+[20.644413] (-) TimerEvent: {}
+[20.745061] (-) TimerEvent: {}
+[20.845615] (-) TimerEvent: {}
+[20.946287] (-) TimerEvent: {}
+[21.046959] (-) TimerEvent: {}
+[21.147627] (-) TimerEvent: {}
+[21.248292] (-) TimerEvent: {}
+[21.348974] (-) TimerEvent: {}
+[21.449675] (-) TimerEvent: {}
+[21.550426] (-) TimerEvent: {}
+[21.651248] (-) TimerEvent: {}
+[21.751936] (-) TimerEvent: {}
+[21.852642] (-) TimerEvent: {}
+[21.953356] (-) TimerEvent: {}
+[22.054058] (-) TimerEvent: {}
+[22.154748] (-) TimerEvent: {}
+[22.255493] (-) TimerEvent: {}
+[22.356374] (-) TimerEvent: {}
+[22.457072] (-) TimerEvent: {}
+[22.557736] (-) TimerEvent: {}
+[22.658444] (-) TimerEvent: {}
+[22.759241] (-) TimerEvent: {}
+[22.860497] (-) TimerEvent: {}
+[22.961259] (-) TimerEvent: {}
+[23.062089] (-) TimerEvent: {}
+[23.162964] (-) TimerEvent: {}
+[23.263868] (-) TimerEvent: {}
+[23.364711] (-) TimerEvent: {}
+[23.465656] (-) TimerEvent: {}
+[23.566549] (-) TimerEvent: {}
+[23.667380] (-) TimerEvent: {}
+[23.768316] (-) TimerEvent: {}
+[23.869142] (-) TimerEvent: {}
+[23.970050] (-) TimerEvent: {}
+[24.070958] (-) TimerEvent: {}
+[24.171829] (-) TimerEvent: {}
+[24.272714] (-) TimerEvent: {}
+[24.373556] (-) TimerEvent: {}
+[24.439405] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[24.440445] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[24.441504] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[24.473821] (-) TimerEvent: {}
+[24.574410] (-) TimerEvent: {}
+[24.675221] (-) TimerEvent: {}
+[24.776067] (-) TimerEvent: {}
+[24.876864] (-) TimerEvent: {}
+[24.977646] (-) TimerEvent: {}
+[25.078274] (-) TimerEvent: {}
+[25.178960] (-) TimerEvent: {}
+[25.279631] (-) TimerEvent: {}
+[25.380362] (-) TimerEvent: {}
+[25.481199] (-) TimerEvent: {}
+[25.581845] (-) TimerEvent: {}
+[25.682502] (-) TimerEvent: {}
+[25.783165] (-) TimerEvent: {}
+[25.876042] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[25.883286] (-) TimerEvent: {}
+[25.983795] (-) TimerEvent: {}
+[26.084470] (-) TimerEvent: {}
+[26.185149] (-) TimerEvent: {}
+[26.285842] (-) TimerEvent: {}
+[26.386510] (-) TimerEvent: {}
+[26.487230] (-) TimerEvent: {}
+[26.587980] (-) TimerEvent: {}
+[26.688641] (-) TimerEvent: {}
+[26.789303] (-) TimerEvent: {}
+[26.878031] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[26.884306] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[26.889428] (-) TimerEvent: {}
+[26.897080] (my_pick_and_place_pkg) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[26.935888] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[26.948030] (my_pick_and_place_pkg) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[26.978010] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[26.978642] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[26.989641] (-) TimerEvent: {}
+[27.090299] (-) TimerEvent: {}
+[27.191017] (-) TimerEvent: {}
+[27.291734] (-) TimerEvent: {}
+[27.392433] (-) TimerEvent: {}
+[27.492982] (-) TimerEvent: {}
+[27.593654] (-) TimerEvent: {}
+[27.694320] (-) TimerEvent: {}
+[27.794987] (-) TimerEvent: {}
+[27.895695] (-) TimerEvent: {}
+[27.996423] (-) TimerEvent: {}
+[28.097141] (-) TimerEvent: {}
+[28.197872] (-) TimerEvent: {}
+[28.298789] (-) TimerEvent: {}
+[28.399558] (-) TimerEvent: {}
+[28.500284] (-) TimerEvent: {}
+[28.572888] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[28.578789] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[28.591892] (my_pick_and_place_pkg) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[28.600514] (-) TimerEvent: {}
+[28.624368] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[28.625035] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[28.625539] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[28.625994] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[28.626330] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[28.700777] (-) TimerEvent: {}
+[28.734414] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[28.736946] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[28.737803] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[28.738014] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[28.739034] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[28.739804] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[28.801036] (-) TimerEvent: {}
+[28.901989] (-) TimerEvent: {}
+[29.002947] (-) TimerEvent: {}
+[29.103723] (-) TimerEvent: {}
+[29.204379] (-) TimerEvent: {}
+[29.305224] (-) TimerEvent: {}
+[29.406735] (-) TimerEvent: {}
+[29.507476] (-) TimerEvent: {}
+[29.608256] (-) TimerEvent: {}
+[29.708959] (-) TimerEvent: {}
+[29.809800] (-) TimerEvent: {}
+[29.910583] (-) TimerEvent: {}
+[30.011627] (-) TimerEvent: {}
+[30.112901] (-) TimerEvent: {}
+[30.213621] (-) TimerEvent: {}
+[30.314403] (-) TimerEvent: {}
+[30.415241] (-) TimerEvent: {}
+[30.516021] (-) TimerEvent: {}
+[30.616695] (-) TimerEvent: {}
+[30.717460] (-) TimerEvent: {}
+[30.817675] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[30.817939] (-) TimerEvent: {}
+[30.831862] (my_pick_and_place_pkg) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[30.864034] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[30.874679] (my_pick_and_place_pkg) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[30.903158] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[30.903843] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[30.904898] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[30.906235] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[30.909115] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[30.918113] (-) TimerEvent: {}
+[30.995147] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[30.996382] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.996842] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[30.998849] (my_pick_and_place_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.000086] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.006886] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[31.010687] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/bin1225/ur_ws/build/my_pick_and_place_pkg\n'}
+[31.018665] (-) TimerEvent: {}
+[31.024882] (my_pick_and_place_pkg) CommandEnded: {'returncode': 0}
+[31.026193] (my_pick_and_place_pkg) JobProgress: {'identifier': 'my_pick_and_place_pkg', 'progress': 'build'}
+[31.028250] (my_pick_and_place_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bin1225/ur_ws/build/my_pick_and_place_pkg', '--', '-j22', '-l22'], 'cwd': '/home/bin1225/ur_ws/build/my_pick_and_place_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bin1225'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bin1225'), ('OLDPWD', '/home/bin1225/ur_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bin1225/ur_ws/src/install:/home/bin1225/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bin1225'), ('NAME', 'BOOK-NSPE08QJBM'), ('WSL_INTEROP', '/run/WSL/28562_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/kkb00/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kkb00/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bin1225/ur_ws/install/my_pick_and_place_pkg:/home/bin1225/ur_ws/install/ur_simulation_gz:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('COLCON_WS', '/home/bin1225/ur_ws'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bin1225/ur_ws/build/my_pick_and_place_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/bin1225/ur_ws/install/my_pick_and_place_pkg:/home/bin1225/ur_ws/install/ur_simulation_gz:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[31.071435] (my_pick_and_place_pkg) CommandEnded: {'returncode': 0}
+[31.073358] (my_pick_and_place_pkg) JobProgress: {'identifier': 'my_pick_and_place_pkg', 'progress': 'install'}
+[31.081240] (my_pick_and_place_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bin1225/ur_ws/build/my_pick_and_place_pkg'], 'cwd': '/home/bin1225/ur_ws/build/my_pick_and_place_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bin1225'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bin1225'), ('OLDPWD', '/home/bin1225/ur_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bin1225/ur_ws/src/install:/home/bin1225/ur_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bin1225'), ('NAME', 'BOOK-NSPE08QJBM'), ('WSL_INTEROP', '/run/WSL/28562_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/mingw64/bin:/mnt/c/Program Files/Java/jdk-21/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/kkb00/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kkb00/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/bin1225/ur_ws/install/my_pick_and_place_pkg:/home/bin1225/ur_ws/install/ur_simulation_gz:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('COLCON_WS', '/home/bin1225/ur_ws'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bin1225/ur_ws/build/my_pick_and_place_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/bin1225/ur_ws/install/my_pick_and_place_pkg:/home/bin1225/ur_ws/install/ur_simulation_gz:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[31.088525] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.089216] (my_pick_and_place_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[31.089575] (my_pick_and_place_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):\n'}
+[31.089714] (my_pick_and_place_pkg) StderrLine: {'line': b"  ament_cmake_symlink_install_directory() can't find\n"}
+[31.089770] (my_pick_and_place_pkg) StderrLine: {'line': b"  '/home/bin1225/ur_ws/src/my_pick_and_place_pkg/launch'\n"}
+[31.089822] (my_pick_and_place_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[31.089869] (my_pick_and_place_pkg) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[31.089917] (my_pick_and_place_pkg) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[31.089961] (my_pick_and_place_pkg) StderrLine: {'line': b'\n'}
+[31.090005] (my_pick_and_place_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[31.091519] (my_pick_and_place_pkg) CommandEnded: {'returncode': 1}
+[31.108429] (my_pick_and_place_pkg) JobEnded: {'identifier': 'my_pick_and_place_pkg', 'rc': 1}
+[31.120114] (-) EventReactorShutdown: {}
