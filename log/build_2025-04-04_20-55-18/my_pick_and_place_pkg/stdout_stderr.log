@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/launch
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/launch/ur5e_with_world.launch.py
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/worlds
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/worlds/pick_and_place_world.sdf
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/config
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/models
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/ament_index/resource_index/package_run_dependencies/my_pick_and_place_pkg
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/ament_index/resource_index/parent_prefix_path/my_pick_and_place_pkg
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/path.sh
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/environment/path.dsv
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.bash
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.sh
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.zsh
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/local_setup.dsv
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.dsv
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/ament_index/resource_index/packages/my_pick_and_place_pkg
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/cmake/my_pick_and_place_pkgConfig.cmake
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/cmake/my_pick_and_place_pkgConfig-version.cmake
+-- Installing: /home/bin1225/ur_ws/install/my_pick_and_place_pkg/share/my_pick_and_place_pkg/package.xml

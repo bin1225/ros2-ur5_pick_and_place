@@ -52,6 +52,9 @@
   <test_depend>liburdfdom-tools</test_depend>
   <test_depend>xacro</test_depend>
 
+  <!-->gripper dependency-->
+  <!--<exec_depend>robotiq_description</exec_depend>-->
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>

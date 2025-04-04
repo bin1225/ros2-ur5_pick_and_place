@@ -1,0 +1,109 @@
+[0.021s] Invoking command in '/home/bin1225/ur_ws/build/my_pick_and_place_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/my_pick_and_place_pkg -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/my_pick_and_place_pkg
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.526s] -- The CXX compiler identification is GNU 11.4.0
+[0.789s] -- Detecting C compiler ABI info
+[0.856s] -- Detecting C compiler ABI info - done
+[0.861s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.861s] -- Detecting C compile features
+[0.861s] -- Detecting C compile features - done
+[0.862s] -- Detecting CXX compiler ABI info
+[0.952s] -- Detecting CXX compiler ABI info - done
+[0.956s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.956s] -- Detecting CXX compile features
+[0.956s] -- Detecting CXX compile features - done
+[0.958s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.049s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.108s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.184s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.187s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.193s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.255s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.259s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.669s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.391s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.094s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.099s] -- Looking for pthread.h
+[4.207s] -- Looking for pthread.h - found
+[4.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.311s] -- Found Threads: TRUE  
+[4.351s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[4.352s] -- Checking for module 'bullet>=2.82'
+[4.367s] --   Found bullet, version 3.05
+[4.451s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[4.479s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.497s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.523s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.756s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.761s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.769s] -- Searching for dependencies of ignition-math6
+[4.772s] -- Looking for OGRE...
+[4.772s] -- OGRE_PREFIX_WATCH changed.
+[4.779s] -- Checking for module 'OGRE'
+[4.786s] --   Found OGRE, version 1.9.0
+[4.814s] -- Found Ogre Ghadamon (1.9.0)
+[5.045s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.052s] -- Looking for OGRE_Paging...
+[5.247s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.247s] -- Looking for OGRE_Terrain...
+[5.510s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.510s] -- Looking for OGRE_Property...
+[5.686s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.686s] -- Looking for OGRE_RTShaderSystem...
+[5.839s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.839s] -- Looking for OGRE_Volume...
+[5.993s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.993s] -- Looking for OGRE_Overlay...
+[6.173s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[19.482s] -- Looking for ignition-math6 -- found version 6.15.1
+[19.483s] -- Looking for ignition-transport8 -- found version 8.2.1
+[19.484s] -- Searching for dependencies of ignition-transport8
+[20.149s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[21.544s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[21.547s] -- Checking for module 'libzmq >= 4'
+[21.567s] --   Found libzmq , version 4.3.4
+[21.585s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[21.769s] -- Checking for module 'uuid'
+[21.776s] --   Found uuid, version 2.37.2
+[21.792s] -- Found UUID: TRUE  
+[21.793s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[21.794s] -- Searching for dependencies of ignition-msgs5
+[22.522s] -- Looking for ignition-math6 -- found version 6.15.1
+[22.534s] -- Checking for module 'tinyxml2'
+[22.543s] --   Found tinyxml2, version 9.0.0
+[22.561s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[22.563s] -- Looking for ignition-common3 -- found version 3.14.0
+[22.563s] -- Searching for dependencies of ignition-common3
+[22.577s] -- Looking for dlfcn.h - found
+[22.591s] -- Looking for libdl - found
+[22.592s] -- Found DL: TRUE  
+[22.629s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[22.630s] -- Searching for <ignition-common3> component [graphics]
+[22.632s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[22.632s] -- Searching for dependencies of ignition-common3-graphics
+[22.632s] -- Looking for ignition-math6 -- found version 6.15.1
+[22.635s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[22.636s] -- Searching for dependencies of ignition-fuel_tools4
+[23.352s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[23.358s] -- Checking for module 'jsoncpp'
+[23.365s] --   Found jsoncpp, version 1.9.5
+[23.380s] -- Found JSONCPP: TRUE  
+[23.384s] -- Checking for module 'libzip'
+[23.390s] --   Found libzip, version 1.7.3
+[23.405s] -- Found ZIP: TRUE  
+[23.406s] -- Looking for ignition-common3 -- found version 3.14.0
+[23.406s] -- Looking for ignition-math6 -- found version 6.15.1
+[23.406s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[23.411s] -- Gazebo version: 11.10
+[23.412s] -- Checking for module 'tbb'
+[23.419s] --   Found tbb, version 2021.5.0
+[23.435s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.486s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.487s] -- Added test 'lint_cmake' to check CMake code style
+[23.487s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[23.488s] -- Added test 'xmllint' to check XML markup files
+[23.492s] -- Configuring done
+[23.496s] -- Generating done
+[23.498s] -- Build files have been written to: /home/bin1225/ur_ws/build/my_pick_and_place_pkg
