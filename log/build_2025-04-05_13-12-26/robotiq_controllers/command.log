@@ -1,4 +1,0 @@
-Invoking command in '/home/bin1225/ur_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/robotiq_controllers -- -j22 -l22
-Invoked command in '/home/bin1225/ur_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bin1225/ur_ws/build/robotiq_controllers -- -j22 -l22
-Invoking command in '/home/bin1225/ur_ws/build/robotiq_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/robotiq_controllers
-Invoked command in '/home/bin1225/ur_ws/build/robotiq_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bin1225/ur_ws/build/robotiq_controllers

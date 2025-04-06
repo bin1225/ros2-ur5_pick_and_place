@@ -1,2 +1,0 @@
-Invoking command in '/home/bin1225/ur_ws/build/robotiq_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/robotiq_driver
-Invoked command in '/home/bin1225/ur_ws/build/robotiq_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/ros2_robotiq_gripper/robotiq_driver -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/robotiq_driver

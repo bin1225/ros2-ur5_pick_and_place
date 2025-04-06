@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <world name="bright_world">
+  <world name="pick_and_place_world">
 
-    <!-- 흰색 바닥 -->
-    <model name="white_ground">
+    <!-- ✅ Ground Plane 직접 정의 -->
+    <model name="ground_plane">
       <static>true</static>
-      <link name="ground_link">
+      <link name="link">
         <collision name="collision">
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>100 100</size>
+              <size>10 10</size>
             </plane>
           </geometry>
         </collision>
@@ -18,37 +18,41 @@
           <geometry>
             <plane>
               <normal>0 0 1</normal>
-              <size>100 100</size>
+              <size>10 10</size>
             </plane>
           </geometry>
           <material>
-            <ambient>1 1 1 1</ambient>
-            <diffuse>1 1 1 1</diffuse>
-            <specular>0.2 0.2 0.2 1</specular>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
           </material>
         </visual>
       </link>
     </model>
 
-    <!-- 밝은 햇빛 -->
+    <!-- ✅ Light 직접 정의 -->
     <light name="sun" type="directional">
-      <cast_shadows>false</cast_shadows>
+      <cast_shadows>true</cast_shadows>
       <pose>0 0 10 0 0 0</pose>
-      <diffuse>1 1 1 1</diffuse> <!-- ← 여기 고침 -->
-      <specular>0.5 0.5 0.5 1</specular>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
       <attenuation>
         <range>1000</range>
-        <constant>1.0</constant>
-        <linear>0.0</linear>
-        <quadratic>0.0</quadratic>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
       </attenuation>
-      <direction>0 0 -1</direction>
+      <direction>-0.5 0.5 -1</direction>
     </light>
 
-    <!-- 테스트용 박스 -->
+    <!-- ✅ 테스트용 빨간 박스 -->
     <model name="test_box">
       <pose>0.5 0.5 0.025 0 0 0</pose>
       <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box><size>0.05 0.05 0.05</size></box>
+          </geometry>
+        </collision>
         <visual name="visual">
           <geometry>
             <box><size>0.05 0.05 0.05</size></box>
@@ -58,11 +62,6 @@
             <diffuse>0.8 0 0 1</diffuse>
           </material>
         </visual>
-        <collision name="collision">
-          <geometry>
-            <box><size>0.05 0.05 0.05</size></box>
-          </geometry>
-        </collision>
       </link>
     </model>
 

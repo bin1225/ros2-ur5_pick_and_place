@@ -1,0 +1,49 @@
+[0.316s] Invoking command in '/home/bin1225/ur_ws/build/robotiq_hardware_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/ros2_robotiq_gripper/robotiq_hardware_tests -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/robotiq_hardware_tests
+[0.493s] -- The CXX compiler identification is GNU 11.4.0
+[0.661s] -- Detecting CXX compiler ABI info
+[0.740s] -- Detecting CXX compiler ABI info - done
+[0.745s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.745s] -- Detecting CXX compile features
+[0.746s] -- Detecting CXX compile features - done
+[0.756s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.850s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.928s] -- Found hardware_interface: 2.49.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.056s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.063s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.072s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.091s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.914s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.918s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.955s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.990s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.994s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.057s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.060s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.065s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.099s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.109s] -- Looking for C++ include pthread.h
+[2.200s] -- Looking for C++ include pthread.h - found
+[2.200s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.292s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.293s] -- Found Threads: TRUE  
+[2.887s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[2.887s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[2.887s]   asked CMake to find a package configuration file provided by "serial", but
+[2.887s]   CMake did not find one.
+[2.888s] 
+[2.888s]   Could not find a package configuration file provided by "serial" with any
+[2.888s]   of the following names:
+[2.888s] 
+[2.888s]     serialConfig.cmake
+[2.888s]     serial-config.cmake
+[2.888s] 
+[2.888s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[2.888s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[2.888s]   provides a separate development package or SDK, be sure it has been
+[2.888s]   installed.
+[2.888s] 
+[2.890s] [0m
+[2.890s] -- Configuring incomplete, errors occurred!
+[2.890s] See also "/home/bin1225/ur_ws/build/robotiq_hardware_tests/CMakeFiles/CMakeOutput.log".
+[2.895s] Invoked command in '/home/bin1225/ur_ws/build/robotiq_hardware_tests' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bin1225/ur_ws/src/ros2_robotiq_gripper/robotiq_hardware_tests -DCMAKE_INSTALL_PREFIX=/home/bin1225/ur_ws/install/robotiq_hardware_tests

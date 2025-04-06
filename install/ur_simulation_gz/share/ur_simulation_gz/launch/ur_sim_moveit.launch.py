@@ -33,7 +33,7 @@ from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, Opaq
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.substitutions import FindPackageShare
-
+from launch.actions import LogInfo
 
 def launch_setup(context, *args, **kwargs):
     # Initialize Arguments
@@ -48,6 +48,15 @@ def launch_setup(context, *args, **kwargs):
     moveit_config_file = LaunchConfiguration("moveit_config_file")
     prefix = LaunchConfiguration("prefix")
 
+
+    LogInfo(msg=["Using description_package file: ", description_package])
+    LogInfo(msg=["Using description file: ", description_file])
+    LogInfo(msg=["Using moveit_config_package file: ", moveit_config_package])
+    LogInfo(msg=["Using moveit_config_file file: ", moveit_config_file]) 
+    LogInfo(msg=["Using prefix file: ", prefix])
+    LogInfo(msg=["Using runtime_config_package file: ", runtime_config_package])
+    LogInfo(msg=["Using controllers_file file: ", controllers_file])
+    
     ur_control_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             [FindPackageShare("ur_simulation_gz"), "/launch", "/ur_sim_control.launch.py"]
